@@ -1,0 +1,32 @@
+body{
+    background: url("images/Flag_of_Kazakhstan.svg.png") no-repeat;
+    background-size: cover;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    display: inline;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.block2{
+    background: url("images/Flag_of_Kazakhstan.svg.png");
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    display: inline-block;
+    border: 10px solid blue;
+    border-radius: 50px;
+}
